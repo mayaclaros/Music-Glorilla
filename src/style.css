@@ -64,6 +64,7 @@ body {
 .embed {
   width: 100%;
   aspect-ratio: 1 / 1;
+  grid: gap 0;
 }
 section {
   max-width: 100%;
@@ -188,6 +189,7 @@ img {
   height: 115px;
   gap: 0px;
   opacity: 0px;
+  border-radius: 12px;
 }
 main p {
   font-family: Poppins;
