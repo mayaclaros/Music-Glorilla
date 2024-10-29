@@ -8,6 +8,9 @@ body {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
 
@@ -22,10 +25,41 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  background: #885df1;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 100px;
+  opacity: 0px;
+  text-decoration: none;
+}
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 header {
@@ -99,6 +133,22 @@ main h3 {
   text-align: left;
   margin: 0;
 }
+
+main h4 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #272044;
+}
+
+main h5 {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #272044;
+}
 img {
   width: 570px;
   height: 461px;
@@ -108,6 +158,21 @@ img {
 
 .img-responsive {
   max-width: 100%;
+}
+
+.img-full {
+  width: 370px;
+  height: 230px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.img-yeah-glo {
+  display: inline-block;
+  width: 185px;
+  height: 115px;
+  gap: 0px;
+  opacity: 0px;
 }
 main p {
   font-family: Poppins;
