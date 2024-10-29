@@ -19,6 +19,7 @@ body {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
 }
 
 .grid-3-columns-first-narrow {
@@ -175,16 +176,16 @@ img {
 }
 
 .img-full {
-  width: 370px;
-  height: 230px;
+  width: 185px;
+  height: 115px;
   gap: 0px;
   opacity: 0px;
 }
 
 .img-yeah-glo {
   display: block;
-  width: 370px;
-  height: 230px;
+  width: 185px;
+  height: 115px;
   gap: 0px;
   opacity: 0px;
 }
