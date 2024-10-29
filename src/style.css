@@ -34,8 +34,15 @@ body {
   margin: 30px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
 .card-body {
   padding: 30px;
+}
+
+.card-footer {
+  padding: 20px;
 }
 
 .btn {
@@ -51,6 +58,11 @@ body {
   border-radius: 100px;
   opacity: 0px;
   text-decoration: none;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 section {
   max-width: 100%;
@@ -69,7 +81,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 header h1 {
@@ -80,14 +92,14 @@ header h1 {
 }
 
 header h2 {
-  font-weight: 400px;
+  font-weight: 100px;
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
 }
 
 header h3 {
-  font-weight: 900px;
+  font-weight: 100px;
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 5px;
@@ -116,7 +128,7 @@ main {
 main h2 {
   font-family: Poppins;
   font-size: 16px;
-  font-weight: 700;
+
   line-height: 1.5;
   letter-spacing: 5px;
   color: #272044;
@@ -138,16 +150,18 @@ main h4 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
+  margin: 0;
 }
 
 main h5 {
   font-family: Poppins;
   font-size: 13px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
+  margin: 0;
 }
 img {
   width: 570px;
@@ -168,9 +182,9 @@ img {
 }
 
 .img-yeah-glo {
-  display: inline-block;
-  width: 185px;
-  height: 115px;
+  display: block;
+  width: 370px;
+  height: 230px;
   gap: 0px;
   opacity: 0px;
 }
@@ -245,5 +259,13 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
